@@ -1,3 +1,4 @@
+function calculate(){
 var trianglelength=parseInt(prompt("enter number1"));
 var trianglewidth=parseInt(prompt("enter number2"));
 var trianglebase=parseInt(prompt("enter number3"));
