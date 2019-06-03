@@ -4,5 +4,9 @@ h1{
     font-family:'Covered By Your Grace', cursive;
 }
 body {
-    background-image: url("images/Triangle.jpg");
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Valknut.svg/1200px-Valknut.svg.png");
+    background-image: cover;
+    background-repeat: no-repeat;
+margin-left: 750px;
+color: grey
 }
