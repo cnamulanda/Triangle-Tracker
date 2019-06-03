@@ -8,11 +8,10 @@ This is a webpage that was created using Javascript, HTML amd CSS styling. Unlik
 * Created a repository in Github
 * Wrote out commands in Terminal and updated github via add and commit function, push origin master
 
-##Behavior DRiven DEvelopment
-| Equilateral  |  Isoceles  | Scalene    |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+##Behavior Driven Development
+| Equilateral      |  Isoceles       | Scalene    |
+| All sides equal    Two sides equal   All sides not equal|
+
 
 ## Known Bugs
 
