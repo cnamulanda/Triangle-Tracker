@@ -7,6 +7,14 @@ This is a webpage that was created using Javascript, HTML amd CSS styling. Unlik
 * Created file Index.html. style.css, README.MD and js.scripts
 * Created a repository in Github
 * Wrote out commands in Terminal and updated github via add and commit function, push origin master
+## Technologies Used
+Languages used HTML, CSS and JavaScript
+## Support and contact details
+
+### License
+*MIT*
+Copyright (c) {2019} **Christine Namulanda*
+
 
 ##Behavior Driven Development
 |Behaviour|Input|Output|
@@ -20,13 +28,3 @@ This is a webpage that was created using Javascript, HTML amd CSS styling. Unlik
 |No sides equal|Trianglelength=6| scalene|
 ||Trianglewidth=5||
 ||Trianglebase 4||
-
-## Known Bugs
-
-## Technologies Used
-Languages used HTML, CSS and JavaScript
-## Support and contact details
-
-### License
-*MIT*
-Copyright (c) {2019} **Christine Namulanda*
