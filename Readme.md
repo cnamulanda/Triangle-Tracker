@@ -11,12 +11,15 @@ This is a webpage that was created using Javascript, HTML amd CSS styling. Unlik
 ##Behavior Driven Development
 Behaviour|Input|Output
 |-------------------------------------------------------------------------|---------------------------------------------------|
-|All sides equal|Trianglelength=6|Trianglewidth=6| Equilateral
-||Trianglebase=6
-|TWo sides equal|Trianglelength=6|Trianglewidth=6|Isoceles
-|Trianglebase=5
-|No sides equal|Trianglelength=6|Trianglewidth=5|Scalene
-|Trianglebase 4
+|All sides equal|Trianglelength=6|Equilateral|
+||Trianglewidth=6||
+||Trianglebase=6||
+|TWo sides equal|Trianglelength=6|Isoceles|
+||Trianglebase=5||
+||Trianglewidth=6||
+|No sides equal|Trianglelength=6| scalene|
+||Trianglewidth=5||
+||Trianglebase 4||
 
 
 ## Known Bugs
