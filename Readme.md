@@ -9,8 +9,14 @@ This is a webpage that was created using Javascript, HTML amd CSS styling. Unlik
 * Wrote out commands in Terminal and updated github via add and commit function, push origin master
 
 ##Behavior Driven Development
-| Equilateral      |  Isoceles       | Scalene    |
-| All sides equal    Two sides equal   All sides not equal|
+Behaviour|Input|Output
+|-------------------------------------------------------------------------|---------------------------------------------------|
+|All sides equal|Trianglelength=6|Trianglewidth=6| Equilateral
+||Trianglebase=6
+|TWo sides equal|Trianglelength=6|Trianglewidth=6|Isoceles
+|Trianglebase=5
+|No sides equal|Trianglelength=6|Trianglewidth=5|Scalene
+|Trianglebase 4
 
 
 ## Known Bugs
