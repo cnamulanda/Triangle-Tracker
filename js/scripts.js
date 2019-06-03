@@ -1,21 +1,26 @@
-function calculate(){
-var L=parseFloat(document.getElementById("l").value);
-var W=parseFloat(document.getElementById("w").value);
-var B=parseFloat(document.getElementById("b").value);
+var calculate=function(Trianglelength,Trianglewidth,Trianglebase){
+var Trianglelength=document.getElementById("sideOne").value;
+var Trianglewidth=document.getElementById("sideTwo").value;
+var Trianglebase=document.getElementById("sideThree").value;
 
-if(Trianglelength + Trianglewidth<Trianglebase||Trianglewidth+Trianglebase<=Trianlgelength||(Trianglebase+Trianglelength)<=Trianglebase{
-document.getElementById('answer').innerHTML="Not a triangle"
-}
+if(Trianglelength + Trianglewidth<Trianglebase||Trianglewidth+Trianglebase<=Trianglelength||(Trianglebase+Trianglelength)<=Trianglebase)
+{
+alert ("Not a triangle");
+
 }else if((Trianglelength == Trianglewidth) && (Trianglewidth == Trianglebase) && (Trianglebase == Trianglelength))
-{ document.getElementById('answer') .innerHTML="Equilateral"
-}else if((Trianglelength == TriangleWidth)||(Trianglwidth == Trianglebase)||(Trianglebase == Trianglelength)){
-    document.getElementById('answer') .innerHTML="isoceles"
+{ 
+    alert ("Equilateral");
+}
+else if((Trianglelength == Trianglewidth)||(Trianglewidth == Trianglebase)||(Trianglebase == Trianglelength))
+{
+    alert ("isoceles");
 
-}else if ((Trianglelength!==Trianglewidth) && (Trianglewidth!==Trianglebase)&&(Trianglebase!==Trianglelength)){
-    document.getElementById('answer').innerHTML="scalene"
-   
-   };
+}else if ((Trianglelength!==Trianglewidth) && (Trianglewidth!==Trianglebase)&&(Trianglebase!==Trianglelength))
+{
+    alert ("scalene");
+}
+}
    
    function change(){
-    document.getElementByClassName('reset').innerHTML="";
+    location.reload();
    }

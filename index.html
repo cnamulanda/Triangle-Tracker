@@ -12,22 +12,24 @@
 </head>
 <body>
     <h1>Triangle Tracker</h1>
-    <form>
+    <form method="GET">
 
     <p>Trianglelength <Trianglelength:blank></A:blank></p>
-     <p><input type="number" id="Side A" value=""></p>
+     <p><input type="number" id="sideOne" value=""></p>
       <br><br>
       <p>Trianglewidth <Trianglewidth:blank></A:blank></p>
-      <input type="number" id="Side A" value="">
+      <input type="number" id="sideTwo" value="">
       <br><br>
      <p> Trianglebase <Trianglebase:blank></A:blank></p>
-      <input type="number" id="Side A" value="">
+      <input type="number" id="sideThree" value="">
       <br><br>
-      <h1 id="answer"></h1>
-      <input type="button" name="fetch" onclick="calculate()"; value="Fetch"><br></br>
-      <input type="reset" name="" class="reset" onclick="change()";><br></br>
-  </form>
+      <h1 id="answer">
 
+      </h1>
+    <input type="button" value="Compute" onclick="calculate()">
+    <input type="button" value="Refresh" onclick="change()">
+  </form>
+<script src="js/scripts.js"></script>
   
 </body>
 

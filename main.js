@@ -5,7 +5,7 @@ unction calculate(){
     
     if((Trianglelength+Trianglewidth)<=Trianglebase || (Trianglewidth+Trianglebase)<=Trianglelength||(Trianglebase+Trianglelength)<=Trianglewidth){
     document.getElementById('answer').innerHTML="Not a triangle"
-    }else if((Trianglelength == Trianglewidth) && (TRianglewidth == Trianglebase) && (Trianglebase == Trianglelength)){
+    }else if((Trianglelength == Trianglewidth) && (Trianglewidth == Trianglebase) && (Trianglebase == Trianglelength)){
      document.getElementById('answer') .innerHTML="Equilateral"
     }else if((Trianglelength == TRianglewidth)||(Trianglewidth == Trianglebase)||(Trianglebase == Trianglelength)){
     document.getElementById('answer') .innerHTML="isoceles"
