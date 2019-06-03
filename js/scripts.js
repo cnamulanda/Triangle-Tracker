@@ -1,15 +1,21 @@
 function calculate(){
-var trianglelength=parseInt(prompt("enter number1"));
-var trianglewidth=parseInt(prompt("enter number2"));
-var trianglebase=parseInt(prompt("enter number3"));
+var L=parseFloat(document.getElementById("l").value);
+var W=parseFloat(document.getElementById("w").value);
+var B=parseFloat(document.getElementById("b").value);
 
-if(trianglelength == trianglewidth && trianglewidth==trianglebase && trianglebase==trianglelength){
-alert ("Equilateral");
+if(Trianglelength + Trianglewidth<Trianglebase||Trianglewidth+Trianglebase<=Trianlgelength||(Trianglebase+Trianglelength)<=Trianglebase{
+document.getElementById('answer').innerHTML="Not a triangle"
 }
-else if (trianglelength == trianglewidth||trianglewidth==trianglebase||trianglebase==trianglelength){
-alert ("Isoceles")
-}
+}else if((Trianglelength == Trianglewidth) && (Trianglewidth == Trianglebase) && (Trianglebase == Trianglelength))
+{ document.getElementById('answer') .innerHTML="Equilateral"
+}else if((Trianglelength == TriangleWidth)||(Trianglwidth == Trianglebase)||(Trianglebase == Trianglelength)){
+    document.getElementById('answer') .innerHTML="isoceles"
 
-else{
-alert ("Scalene");
-}
+}else if ((Trianglelength!==Trianglewidth) && (Trianglewidth!==Trianglebase)&&(Trianglebase!==Trianglelength)){
+    document.getElementById('answer').innerHTML="scalene"
+   
+   };
+   
+   function change(){
+    document.getElementByClassName('reset').innerHTML="";
+   }

@@ -6,7 +6,7 @@ h1{
 body {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Valknut.svg/1200px-Valknut.svg.png");
     background-image: cover;
-    background-repeat: no-repeat;
-margin-left: 750px;
-color: grey
+    background-repeat:no-repeat;
+margin-left: 950px;
+background-color: lightgray
 }
